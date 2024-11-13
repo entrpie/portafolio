@@ -1,0 +1,66 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: url(../assets/img/tropical-plants-isolated-on-white-background-botanical-foreground--1170x640.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+
+section{
+    padding: 1.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.4rem;
+    font-family:  "Bebas Neue", sans-serif;
+    text-shadow:
+            0 0 5px rgb(255, 255, 255),
+            0 0 10px  rgb(255, 255, 255),
+            0 0 15px   rgb(255, 255, 255),
+            ;
+}
+
+.texto{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer{
+    color:deeppink;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10ox;
+    color:darkmagenta;
+    text-decoration: none;
+    transition: color 0.2s ease; 
+}
+
+.footer-links a:hover{
+    color: #ccc;
+}
+
+.footer-copyright{
+    font-size: 14px;
+    color: deeppink;
+}
+
+.bi {
+    font-size: 18px;
+    margin-right: 5px;
+}
